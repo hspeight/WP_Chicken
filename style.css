@@ -1,0 +1,61 @@
+/*
+Theme Name: Chicken
+Author: Mr Chicken
+Version: 1.0
+*/
+
+body {
+	
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+/* General layout */
+div.container {
+
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px
+	
+}
+
+/* Header */
+.site-header {
+	
+	border-bottom:2px solid #444;
+	
+}
+
+/* Footer */
+.site-footer {
+	
+	margin-top: 30-x;
+	border-top:2px solid #444;
+	
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+article.post {
+	
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+table {
+    border-collapse: collapse;
+	width: 100%;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+	
+	text-align: center;
+}
